@@ -2,7 +2,7 @@
 
 This repository contains a Keras layer implementing a dense mixture of experts model:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{y}&space;=&space;\sum_{k=1}^K&space;g(\mathbf{v}_k^\top&space;\mathbf{x}&plus;\mathbf{b}_k)f(\mathbf{W}_k\mathbf{x}&plus;\mathbf{c}_k)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{y}&space;=&space;\sum_{k=1}^K&space;g(\mathbf{v}_k^\top&space;\mathbf{x}&plus;\mathbf{b}_k)f(\mathbf{W}_k\mathbf{x}&plus;\mathbf{c}_k)" title="\mathbf{y} = \sum_{k=1}^K g(\mathbf{v}_k^\top \mathbf{x}+\mathbf{b}_k)f(\mathbf{W}_k\mathbf{x}+\mathbf{c}_k)" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{y}&space;=&space;\sum_{k=1}^K&space;g(\mathbf{v}_k^\top&space;\mathbf{x}&space;&plus;&space;b_k)f(\mathbf{W}_k\mathbf{x}&space;&plus;&space;\mathbf{c}_k)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{y}&space;=&space;\sum_{k=1}^K&space;g(\mathbf{v}_k^\top&space;\mathbf{x}&space;&plus;&space;b_k)f(\mathbf{W}_k\mathbf{x}&space;&plus;&space;\mathbf{c}_k)" title="\mathbf{y} = \sum_{k=1}^K g(\mathbf{v}_k^\top \mathbf{x} + b_k)f(\mathbf{W}_k\mathbf{x} + \mathbf{c}_k)" /></a>
 
 Some of the main arguments are as follows:
 * `units`: the output dimensionality
