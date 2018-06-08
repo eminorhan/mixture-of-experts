@@ -10,4 +10,4 @@ Some of the main arguments are as follows:
 * `expert_activation`: Activation function for the expert model (<a href="https://www.codecogs.com/eqnedit.php?latex=f" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f" title="f" /></a>)
 * `gating_activation`: Activation function for the gating model (<a href="https://www.codecogs.com/eqnedit.php?latex=g" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g" title="g" /></a>)
 
-Please see `MixtureOfExperts.py` for additional arguments. The file `moe_demo.py` contains an example demonstrating how to use this layer. The example there essentially implements the simulations reported in [this blog post](https://severelytheoretical.wordpress.com/).
+Please see `MixtureOfExperts.py` for additional arguments. The file `moe_demo.py` contains an example demonstrating how to use this layer. The example there essentially implements the simulations reported in [this blog post](https://severelytheoretical.wordpress.com/2018/06/08/the-softmax-bottleneck-is-a-special-case-of-a-more-general-phenomenon/).
